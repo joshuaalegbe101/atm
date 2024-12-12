@@ -1,0 +1,114 @@
+body{
+    margin:0;
+    border-radius:50%;
+    background: #EFEFEF;
+    background: -moz-linear-gradient(left, #EFEFEF 0%, #FFF5E6 25%, #DBE8DA 100%);
+    background: -webkit-linear-gradient(left, #EFEFEF 0%, #FFF5E6 25%, #DBE8DA 100%);
+    background: linear-gradient(to right, #EFEFEF 0%, #FFF5E6 25%, #DBE8DA 100%);
+}
+.topBar{
+    border:solid green;
+    height:30px;
+    background-color:green;
+    margin-top:0px;
+    margin-bottom:30px;
+
+}
+
+.title{
+    font-size:90px;
+    text-shadow: 1px 2px 2px darkolivegreen;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    color: #000000;
+    font-weight: 700;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: small-caps;
+    text-transform: none;
+    /*
+    */
+    height:200px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin-bottom:0;
+}
+
+.displayContainer{
+    display:flex;
+    justify-content:center;
+
+}
+
+.mainDisplay{
+    border:solid darkgreen;
+    border-radius:5%;
+    width: 80%;
+    height:50vh;
+    display:inline;
+    align-content:center;
+}
+
+.message {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.pressMe{
+    display:inline;
+    height:40vh;
+    width:10vh;
+    margin-top:25px;
+}
+
+.info {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.pressMe button{
+    margin-top:5px;
+}
+
+
+
+.mainDisplay p {
+    font-size:30px;
+}
+.calcContainer{
+    display:flex;
+    justify-content:center;
+}
+
+.numOnly{
+    width:20vh;
+    display:grid;
+    grid-template-columns:repeat(3, 1fr);
+    gap:10px;
+    margin:1px;
+
+}
+
+.additionalOps{
+    border:solid salmon;
+    margin:1em;
+    height:30px;
+}
+
+button{
+    cursor:pointer;
+    height:80px;
+    width:80px;
+}
+
+.controller{
+    border:solid black;
+    display:inline;
+    margin-right:0;
+}
+
+

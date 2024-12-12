@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+
+        <!--Header-->
+        <div class="headerContainer">
+            <div class="topBar">
+            </div>
+        </div>
+        <!--Bank Title-->
+        <div class="titleContainer">
+            <div class="title">
+                <header>ATM</header>
+            </div>
+        </div>
+        <!--Main Display-->
+        <div class="displayContainer">
+            <div class="pressMe">
+                <button onclick="checkBalance()">Check Balance</button>
+                <button onclick="deposit()">Deposit</button>
+                <button onclick="withdraw()">Withdraw</button>
+                <button>4</button>
+            </div>
+            <div class="mainDisplay">
+                <div class="message">
+                    <p id="main">Hi</p>
+                </div>
+
+                <div class="info">
+                    <p id="detail"></p>
+                </div>
+                
+            </div>
+        </div>
+        <!--Buttons-->
+
+        <!--Number Pad-->
+        <div class="calcContainer">
+                <div class="numOnly">
+                    <button onclick="findMyVal(event)">7</button>
+                    <button onclick="findMyVal(event)">8</button>
+                    <button onclick="findMyVal(event)">9</button>
+                    <button onclick="findMyVal(event)">4</button>
+                    <button onclick="findMyVal(event)">5</button>
+                    <button onclick="findMyVal(event)">6</button>
+                    <button onclick="findMyVal(event)">1</button>
+                    <button onclick="findMyVal(event)">2</button>
+                    <button onclick="findMyVal(event)">3</button>
+                    <button onclick="findMyVal(event)">0</button>
+                    <button id="erase">Clear</button>
+                    <button id="green"><img src="icons8-checkmark-40.png"></button>
+
+                </div>
+            </div>
+        <!--Side Information-->
+
+        <script src="app.js" async defer></script>
+    </body>
+</html>
